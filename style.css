@@ -1,0 +1,128 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    border-bottom: 2px solid #ececec;
+}
+
+.innerNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.innerNav > h1{
+    margin-left: 4rem;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.navItems{
+    border-left: 2px solid #ececec;
+    padding-inline: 1rem;
+    display: flex;
+    gap: 1.3rem;
+}
+
+.navItems> a{
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.joinCommunity > button{
+    padding: .7rem 1.4rem;
+    border: none;
+    background-color: #069275;
+    color: #fff;
+    font-size: 10px;
+}
+
+header{
+    height: 50vh;
+    width: 100%;
+    border-bottom: 2px solid #ececec;
+}
+
+.head{
+    display: flex;
+   max-width: fit-content;
+    gap: 13rem;
+}
+
+.headContents{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.headContents > h5{
+    font-size: 12px;
+    opacity: 4;
+    text-transform: uppercase;
+}
+
+.headContents > h5 > span{
+    font-weight: 100;
+}
+
+.headContents > h1{
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.headContents > p{
+font-size: 14px;
+font-weight: 100;
+}
+
+.founder{
+    display: flex;
+    align-items: center;
+}
+
+.founderImg{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+.founderCont{
+    font-size: 12px;
+    opacity: 4;
+}
+
+.founderCont > span{
+    font-weight: 100;
+}
+
+.headImg{
+    height: 40vh;
+    margin: 2rem 2rem;
+}
+
+.listen{
+    display: flex;
+    gap: 2px;
+}
+.applePod{
+    border: 2px solid #ececec;
+    border-radius: 5%;
+}
+.spotify{
+    border: 2px solid #ececec;
+    border-radius: 5%;
+}
